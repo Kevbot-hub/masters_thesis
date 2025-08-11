@@ -1,0 +1,3 @@
+date,quarter,capability_area,shock_type,severity_0_3,country_scope,description,source_type,source_link,notes
+2021-09-15,2021-Q3,C4ISR,export_control,2,EU,ITAR-related hold on component impacting EU exports,GAO,https://example.org/source,Ref: GAO report XYZ
+2023-03-10,2023-Q1,precision_munitions,dod_crowdout,3,multi,U.S. DoD surge crowds 155mm shell supply chain,DoD,https://example.org/source2,U.S. wartime prioritization

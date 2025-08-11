@@ -1,0 +1,6 @@
+dataset_name,scope,url_or_path,update_cadence,key_fields,license,notes
+SIPRI_arms_transfers,global,data/raw/SIPRI_arms_transfers.csv,annual,"exporter, importer, item, year, TIV",SIPRI terms,Import and subset EU27
+EDA_collaborative_proc,EU,data/raw/EDA_collab_proc.csv,annual,"country, year, share",EDA terms,Compute collab_proc_share
+DSCA_notifications,US->global,data/raw/DSCA_notifications.csv,rolling,"country, system, value, date",US Gov,Mark relevant capability areas
+GAO_reports,US,data/raw/GAO_reports/,ad hoc,"title, date, topic",US Gov,Cite delays/backlogs
+NATO_defence_expenditure,NATO,data/raw/NATO_expenditure.csv,annual,"country, year, GDP%, real growth",NATO,Control variable

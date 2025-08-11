@@ -1,0 +1,15 @@
+variable,type,unit,level,description,source
+country,string,,country-quarter,EU member state ISO2/3,internal
+quarter,string,YYYY-Q#,country-quarter,Calendar quarter,internal
+capability_area,category,,country-quarter,GBAD | precision_munitions | C4ISR | UAV | aircraft | other,coding
+shock_event,int,0/1,country-quarter,Indicator of any U.S. policy shock relevant to the area,GAO/DSCA/DoD/State
+shock_severity,int,0–3,country-quarter,Coded severity of shock,GAO/DSCA/DoD/State
+pre_shock_us_exposure,float,%,country-year,Share of U.S.-origin kit in capability area,SIPRI/EDA
+pesco_projects,int,count,country-quarter,Active PESCO projects joined (total or in area),PESCO/EU
+edf_awards_count,int,count,country-quarter,Count of EDF/EDIRPA/ASAP/EDIP awards involving country,EC/EDA
+collab_proc_share,float,%,country-year,Share of defence spending in collaborative procurement,EDA
+eu_origin_proc_share,float,%,country-year,Share of procurement from EU-origin suppliers,TED/SIPRI/EDA
+autonomy_rhetoric_index,float,index,country-quarter,MAXQDA-coded salience of 'dependency/sovereignty' terms,coded
+threat_alignment,float,index,quarter,"Alignment proxy (e.g., Russia conflict intensity)",constructed
+defence_spend_gdp,float,%,country-year,Defence spending as % GDP,NATO/Eurostat
+industry_capacity,float,index,country-year,"Proxy: prior EDF wins, R&D spend, presence of primes",constructed

@@ -1,0 +1,40 @@
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.Rproj.user/
+.Rhistory
+.RData
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
+
+# MAXQDA/other binaries (placeholder)
+*.mx*
+*.qda*
+*.qdp*
+*.qdpx
+*.qd*
+*.bak
+
+# Misc
+*.log
+*.tmp

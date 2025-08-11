@@ -1,0 +1,9 @@
+
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+statsmodels>=0.14
+linearmodels>=5.6
+requests>=2.32
+jupyter>=1.0
+pyyaml>=6.0
